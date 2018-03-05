@@ -19,4 +19,4 @@ class Person(dexml.Model):
     age = fields.Integer(tagname='age')
 
 p = Person(name="Handsome B. Wonderful",age=36)
-print (p.render())
+print(p.render())
